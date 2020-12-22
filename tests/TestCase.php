@@ -1,13 +1,13 @@
 <?php
 
-namespace Votintsev\PublicSeeding\Tests;
+namespace Votintsev\TestApi\Tests;
 
-use Votintsev\PublicSeeding\PublicSeedingServiceProvider;
+use Votintsev\TestApi\TestApiServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
     protected function getPackageProviders($app)
     {
-        return [PublicSeedingServiceProvider::class];
+        return [TestApiServiceProvider::class];
     }
 }
